@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FacebookChannel implements IChannel {
-    public void ReceiveMessage(Message message, ArrayList<IAttachment> attachments) {
+    public void receiveMessage(Message message, ArrayList<IAttachment> attachments) {
         System.out.println("Facebook receive message \n");
         System.out.println(message +"\n");
         if (attachments != null && attachments.size() > 0)

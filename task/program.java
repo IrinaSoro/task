@@ -53,8 +53,8 @@ public class program {
            // add(new FacebookChannel());
         }};
 
-        messageService.SendMessage(message);
-        messageService.SendMessage(secondMessage);
+        messageService.sendMessage(message);
+        messageService.sendMessage(secondMessage);
 
 
     }

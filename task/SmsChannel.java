@@ -6,7 +6,7 @@ import java.util.List;
 public class SmsChannel implements IChannel {
 
     @Override
-    public void ReceiveMessage(Message message, ArrayList<IAttachment> attachments) {
+    public void receiveMessage(Message message, ArrayList<IAttachment> attachments) {
 
     }
 }

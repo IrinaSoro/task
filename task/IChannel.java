@@ -5,6 +5,6 @@ import java.util.List;
 
 public interface IChannel {
 
-    void ReceiveMessage(Message message , ArrayList<IAttachment> attachments );
+    void receiveMessage(Message message , ArrayList<IAttachment> attachments );
 
 }

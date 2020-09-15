@@ -10,7 +10,7 @@ public class AttachmentFilter implements IAttachmentFilter {
     EmailChannel emailChannel = new EmailChannel();
 
     @Override
-    public ArrayList<IAttachment> FilterOutAttachments(IChannel channel, ArrayList<IAttachment> attachments) {
+    public ArrayList<IAttachment> filterOutAttachments(IChannel channel, ArrayList<IAttachment> attachments) {
 
         if (channel instanceof FacebookChannel) {
             return (ArrayList<IAttachment>) attachments.stream()

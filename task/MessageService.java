@@ -12,7 +12,7 @@ public class MessageService {
         attachmentFilter = new AttachmentFilter();
     }
 
-    public void SendMessage(Message message)
+    public void sendMessage(Message message)
     {
         ArrayList<IAttachment> attachments;
 
@@ -20,7 +20,7 @@ public class MessageService {
         {
             attachments = attachmentFilter.FilterOutAttachments(channel, message.attachments);
 
-            channel.ReceiveMessage(message,attachments);
+            channel.receiveMessage(message,attachments);
         }
 
        System.out.println("Sending a message finished success");
