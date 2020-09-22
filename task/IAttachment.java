@@ -1,6 +1,6 @@
 package task;
 
-public interface IAttachment {
+public interface Attachments {
 
 
     public String getName();
