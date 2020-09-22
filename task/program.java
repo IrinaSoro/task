@@ -2,8 +2,9 @@ package task;
 import java.time.*;
 import java.util.ArrayList;
 
-public class program {
+public class Program {
     public static void main(String [] args) {
+
         MessageService messageService = new MessageService();
 
         Message message = new Message();
