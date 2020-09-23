@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MessageService {
 
-    private  IAttachmentFilter attachmentFilter;
+    /*private  IAttachmentFilter attachmentFilter;
 
     public MessageService()
 
@@ -24,7 +24,7 @@ public class MessageService {
         }
 
        System.out.println("Sending a message finished success");
-    }
+    }*/
 }
 
 
