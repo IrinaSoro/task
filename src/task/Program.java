@@ -1,8 +1,8 @@
 package task;
-import java.time.*;
-import java.util.ArrayList;
 
-public class program {
+import java.time.LocalDateTime;
+
+public class Program {
     public static void main(String [] args) {
         MessageService messageService = new MessageService();
 
@@ -50,7 +50,7 @@ public class program {
         secondMessage.channels = new ArrayList<IChannel>() {{
             add(new EmailChannel());
             add(new SmsChannel());
-           // add(new FacebookChannel());
+            // add(new FacebookChannel());
         }};
 
         messageService.sendMessage(message);
@@ -59,5 +59,3 @@ public class program {
 
     }
 }
-
-
